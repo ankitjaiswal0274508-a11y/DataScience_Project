@@ -158,8 +158,8 @@ git push
 
 # 💻 8. NEW LAPTOP SETUP
 
-```
-git clone https://github.com/your-username/MyProject.git
+```git clone https://github.com/ankitjaiswal0274508-a11y/MyProject.git
+
 cd MyProject
 python -m venv venv
 venv\Scripts\activate
@@ -214,6 +214,71 @@ rm -r foldername
 | GitHub  | Online backup   |
 
 ---
+
+# 🟢 12. REAL WORKFLOW (PROJECT PAR KAAM KAISE KIYA)
+💻 STEP 1: Laptop start kiya
+
+Terminal open kiya:
+
+cd Desktop\DataScience_Project
+⚙️ STEP 2: Virtual Environment activate kiya
+venv\Scripts\activate
+
+👉 Output:
+
+(venv) ...
+🚀 STEP 3: Jupyter start kiya
+jupyter notebook
+
+👉 Browser open hua
+👉 Project.ipynb open kiya
+
+🧠 STEP 4: Code likha / update kiya
+
+Example:
+
+print("Hello Ankit 🚀")
+
+👉 Notebook save kiya (Ctrl + S)
+
+🔍 STEP 5: Changes check kiye
+
+Terminal me:
+
+git status
+
+👉 Output:
+
+modified: Project.ipynb
+📦 STEP 6: Changes add kiye
+git add .
+💾 STEP 7: Commit kiya
+git commit -m "updated notebook"
+🌐 STEP 8: GitHub pe upload kiya
+git push
+🎉 RESULT
+
+👉 GitHub pe updated file dikhne lagi
+👉 Project safe ho gaya
+
+🔁 DAILY REAL FLOW
+Open laptop
+↓
+cd project folder
+↓
+activate venv
+↓
+jupyter notebook
+↓
+code likho / update karo
+↓
+save (Ctrl + S)
+↓
+git add .
+↓
+git commit -m "update"
+↓
+git push
 
 # ⚠️ IMPORTANT RULES
 
